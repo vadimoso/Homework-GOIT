@@ -1,0 +1,17 @@
+ p {
+        font-size: 20px;
+        font-family: 'Times New Roman', serif;
+      }
+      li {
+        font-size: 20px;
+      }
+      
+      .photo {
+      	text-align: center;
+      }
+      .block {
+      	width: 500px; 
+        margin: 0 auto; 
+        text-align: left; 
+   
+      }
