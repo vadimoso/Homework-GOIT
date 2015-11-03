@@ -32,10 +32,14 @@ body {
 	text-decoration: none;
 	padding: 0 40px;
 	font-style: 15px;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
 
 }
 .menu a:hover {
 	background: #4a4a4a;
+	border-left: 1px solid #838383;
+	border-right: 1px solid #838383;
 }
 .content {
 	position: relative;
@@ -65,8 +69,8 @@ body {
 
 .sidebar-menu a:hover {
 	padding-left: 35px;
-	background: #f9f9f9;
 }
+
 .product {
 	float: right;
 	width: 680px;
