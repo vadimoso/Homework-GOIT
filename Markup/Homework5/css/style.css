@@ -1,0 +1,156 @@
+body {
+	margin: 0 auto;
+	font-family: Tahoma, sans-serif;
+}
+
+/*HEADER*/
+header {
+	position: relative;
+	overflow: hidden;
+	background-color: #085393;
+	height: 39px;
+	width: 1210px;
+
+}
+.menu {
+	margin-right: 0px;
+	margin-left: 400px;
+}
+.menu ul {
+	padding-left: 0px;
+}
+
+.menu li{
+	display: block;
+	float: left;
+	margin-right: 20px;
+    font-size: 14px;
+}
+.menu a {
+	text-decoration: none;
+	color: #60b5ed;
+	padding: 15px 5px 5px 5px;
+	font-family: Tahoma, sans-serif;
+}
+.menu .border {
+	padding-right: 20px;
+	border-right: 3px solid #4d89a9;
+}
+.entrance {
+	display: inline-block;
+	position: absolute;
+	top: 5px;
+	right: 40px;
+	font-family: Tahoma, sans-serif;
+	font-size: 14px;
+}
+.entrance a {
+	color: white;
+	text-decoration: underline;
+}
+.entrance .minhasofertas {
+	padding: 11px 10px 5px 10px;
+	text-decoration: none;
+}
+.entrance span{
+	color: white;
+	padding: 11px 10px 5px 10px;
+}
+
+ul a:hover{
+	background: #4eabda;
+	color: white;
+}
+.entrance .minhasofertas:hover{
+	background: #4eabda;
+}
+
+.entrance span:hover{
+	background: #4eabda;
+}
+
+/*WRAPPER*/
+.wrapper {
+	position: relative;
+	overflow: hidden;
+	background-image: url(../img/Background.jpg);
+	width: 1210px;
+	height: 1030px;
+}
+.container {
+	position: relative;
+	width: 560px;
+	height: 640px;
+	margin: 214px  auto;
+	background-color: rgba(0,0,0,0.6);
+	
+}
+.top-container {
+	height: 60px;
+	border-bottom: 2px solid #b6c0a8;
+}
+.top-container p {
+	text-align: center;
+	color: #e7e7e6;
+	font-size: 20px;
+	font-family: Tahoma, sans-serif;
+	padding-top: 20px;
+}
+.forms {
+	width: 285px;
+	margin: 0 auto;
+}
+form {
+	display: block;
+	font-family: Tahoma, sans-serif;
+}
+.facebooklink {
+	margin-top: 40px;
+	margin-bottom: 37px;
+}
+.OUline {
+	margin-bottom: 31px;
+}
+.button{
+	padding: 0;
+	width: 150px;
+	height: 36px;
+	margin-left: 73px;
+	color: white;
+	border-radius: 4px;
+	background: #4aa5d7;
+	margin-bottom: 0px;
+}
+form {
+	
+}
+input {
+	width: 275px;
+	line-height: 35px;
+	margin-bottom: 20px;
+	background: black;
+	font-family: Tahoma, sans-serif;
+	font-size: 16px;
+	border: none;
+	border-bottom: 1px solid #484847;
+}
+input:focus {
+	background: #1b5288;
+	box-shadow: 0 0 5px 3px #4d89ae;
+}
+input[type="checkbox"] {
+	width: 15px;
+}
+label {
+	color: white;
+	font-size: 16px;
+}
+.agreement  {
+	text-align: center;
+	width: 360px;
+	color: white;
+	margin: 0 auto;
+	padding-top: 10px;
+	font-family: Tahoma, sans-serif;
+	font-size: 12px;
+}
