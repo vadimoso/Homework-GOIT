@@ -54,7 +54,8 @@ header {
 }
 .entrance span{
 	color: white;
-	padding: 11px 10px 5px 10px;
+	padding: 12px 10px 6px 10px;
+	background-color: #4faedb;
 }
 
 ul a:hover{
@@ -131,6 +132,7 @@ input {
 	background: black;
 	font-family: Tahoma, sans-serif;
 	font-size: 16px;
+	line-height: 35px;
 	border: none;
 	border-bottom: 1px solid #484847;
 }
@@ -138,6 +140,10 @@ input:focus {
 	background: #1b5288;
 	box-shadow: 0 0 5px 3px #4d89ae;
 }
+input[type="text"], input[type="password"], input[type="email"] {
+	text-indent: 18px;
+}
+
 input[type="checkbox"] {
 	width: 15px;
 }
